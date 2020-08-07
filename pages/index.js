@@ -1,6 +1,6 @@
 import Head from "next/head";
 import _fetch from "isomorphic-fetch";
-import { years, baseUrl } from "./utils";
+import { years, baseUrl } from "../utils";
 import { useState, useEffect } from "react";
 
 function Home(props) {
